@@ -22,4 +22,5 @@ def get_current_weather():
     print(f'\nFeels like {weather_data["main"]["feels_like"]} and {weather_data["weather"][0]["description"]}.')
 
 
-get_current_weather()
+if __name__ == "__main__":
+    get_current_weather()
